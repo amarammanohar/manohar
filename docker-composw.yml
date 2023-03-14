@@ -1,0 +1,6 @@
+versiom: '3.3'
+services:
+  swiggy:
+    image: nginx
+    ports:
+      - "8000:80"
